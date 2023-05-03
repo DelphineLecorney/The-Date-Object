@@ -4,4 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.color-text {
+  color: rgb(107, 163, 93);
 }/*# sourceMappingURL=style.css.map */
