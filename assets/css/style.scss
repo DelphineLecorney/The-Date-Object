@@ -1,11 +1,26 @@
-.container {
-    font-size: 30px;
+.timeZonesContainer,
+.daysSinceBirthContainer,
+.futureDateTimeContainer,
+.messageNbHours {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .color-text {
-    color: rgb(107, 163, 93);
+    color: rgb(201, 126, 83);
+}
+
+input {
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    border: 2mm ridge rgba(197, 141, 88, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 10px;
 }

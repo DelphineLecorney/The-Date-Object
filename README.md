@@ -1,6 +1,6 @@
 # The-Date-Object
 
-> Javascript a un ensemble de fonctionnalités pour gérer et manipuler le temps .
+> Javascript has [a set of features to handle and manipulate time](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
 ## Exercise 1
 
@@ -33,3 +33,13 @@ Find the timezones of :
 > <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds>
 
 
+## Exercise 3
+
+> Using timestamps, find the exact time and date we will be in 80000 hours.
+
+> Write a function to display the time and date for any amount of hours given in the future. Create a number input for the hours and listen for keyup events, dynamically display the date in the number of hours given by the input.
+
+
+### Documentation
+
+<https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString>
