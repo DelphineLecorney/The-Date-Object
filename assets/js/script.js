@@ -11,4 +11,17 @@ function displayTimes() {
     { label: "Saint-Petersburg, Russia", timeZone: "Europe/Moscow" },
     { label: "Brussels, Belgium", timeZone: "Europe/Brussels" },
   ];
+  timeZones.forEach((timeZone) => {
+    // Obtient la date et l'heure actuelle
+    const now = new Date();
+    // Conversion en string
+    const timeNow = now.toLocaleString("en-US", {
+      timeZone: timeZone.timeZone,
+    });
+    const timeElement = document.createElement("p");
+    timeElement.textContent = `It is currently ${timeNow} in ${timeZone.label}.`;
+    container.appendChild(timeElement);
+  });
 }
+
+displayTimes();
