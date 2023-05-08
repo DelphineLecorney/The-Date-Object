@@ -32,7 +32,10 @@ function updateDateTime() {
         timeZone: timeZone.timeZone
     }; 
     const dateNow = now.toLocaleString("en-US", dateOptions);
-    dateElement.textContent = `${dateNow.substr(0,3)} ${dateNow.substr(4)}`;
+    const dayOfWeek = dateNow.substring(0, 3);
+    const monthAndYear = dateNow.substring(5).replace(',', '');
+
+    dateElement.textContent = `${dayOfWeek} ${monthAndYear}`;
 
     const hourFormat = localStorage.getItem('hourFormat');
 
