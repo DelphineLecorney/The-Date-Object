@@ -101,3 +101,4 @@ futureDateTimeContainer.appendChild(input);
 futureDateTimeContainer.appendChild(inputResultContainer);
 
 displayFutureDateTime(80000);
+
