@@ -53,4 +53,34 @@ body {
 }
 #toggleButton:hover {
   background-color: #e0e0e0;
+}
+
+.dateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dayOfWeekElement {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.dateElement {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.monthElement {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.yearElement {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
