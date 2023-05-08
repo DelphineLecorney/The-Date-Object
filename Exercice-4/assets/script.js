@@ -67,3 +67,5 @@ toggleButtonElement.addEventListener('click', () => {
 if (!localStorage.getItem('hourFormat')) {
     localStorage.setItem('hourFormat', '12');
 };
+// Retirer le button du container, si body plus rien (à voir)
+document.body.insertAdjacentElement('beforeend', toggleButton);
