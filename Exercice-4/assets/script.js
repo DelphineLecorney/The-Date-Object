@@ -9,9 +9,11 @@ container.appendChild(photoContainer);
 const timeZone = { label: "", timeZone: "Europe/Brussels" };
 
 const dateElement = document.createElement("p");
+dateElement.classList.add('dateElement');
 photoContainer.appendChild(dateElement);
 
 const timeElement = document.createElement("p");
+timeElement.classList.add('timeElement');
 photoContainer.appendChild(timeElement);
 
 const toggleButton = document.createElement('button');
