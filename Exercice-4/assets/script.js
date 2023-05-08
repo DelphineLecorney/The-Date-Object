@@ -25,14 +25,14 @@ function updateDateTime() {
     const now = new Date();
 
     const dateOptions = {
-        weekday: 'long', 
+        weekday: 'short', 
         year: 'numeric', 
         month: 'long', 
         day: 'numeric', 
         timeZone: timeZone.timeZone
     }; 
     const dateNow = now.toLocaleString("en-US", dateOptions);
-    dateElement.textContent = ` ${dateNow}`;
+    dateElement.textContent = `${dateNow.substr(0,3)} ${dateNow.substr(4)}`;
 
     const hourFormat = localStorage.getItem('hourFormat');
 
