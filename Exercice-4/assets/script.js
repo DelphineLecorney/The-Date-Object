@@ -9,10 +9,10 @@ container.appendChild(photoContainer);
 const timeZone = { label: "", timeZone: "Europe/Brussels" };
 
 const dateElement = document.createElement("p");
-container.appendChild(dateElement);
+photoContainer.appendChild(dateElement);
 
 const timeElement = document.createElement("p");
-container.appendChild(timeElement);
+photoContainer.appendChild(timeElement);
 
 const toggleButton = document.createElement('button');
 toggleButton.textContent = '12/24';

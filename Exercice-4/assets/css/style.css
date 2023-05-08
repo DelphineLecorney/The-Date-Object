@@ -1,7 +1,7 @@
 @import './reset.css';
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: 20px;
@@ -9,7 +9,7 @@
 
 .photoContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: 20px;
