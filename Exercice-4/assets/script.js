@@ -41,7 +41,7 @@ secondElement.classList.add("secondElement");
 container.appendChild(secondElement);
 
 const toggleButton = document.createElement("button");
-toggleButton.textContent = "12/24";
+toggleButton.innerHTML = "<img src='./pictures/12_24.jpg' alt='toggle'>";
 toggleButton.setAttribute("id", "toggleButton");
 buttonContainer.appendChild(toggleButton);
 
