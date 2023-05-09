@@ -26,6 +26,12 @@ body {
     justify-items: center;
     align-items: center;
 }
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .dateElement {
     color: rgba(66, 65, 65, 0.524);

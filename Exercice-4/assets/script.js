@@ -6,6 +6,10 @@ const photoContainer = document.createElement("div");
 photoContainer.classList.add("photoContainer");
 container.appendChild(photoContainer);
 
+const buttonContainer = document.createElement("div");
+buttonContainer.classList.add("buttonContainer");
+document.body.appendChild(buttonContainer);
+
 const timeZone = { label: "", timeZone: "Europe/Brussels" };
 
 const dateContainer = document.createElement("div");
@@ -35,7 +39,7 @@ photoContainer.appendChild(timeElement);
 const toggleButton = document.createElement("button");
 toggleButton.textContent = "12/24";
 toggleButton.setAttribute("id", "toggleButton");
-container.appendChild(toggleButton);
+buttonContainer.appendChild(toggleButton);
 
 function updateDateTime() {
   const now = new Date();
@@ -92,6 +96,3 @@ toggleButtonElement.addEventListener("click", () => {
 if (!localStorage.getItem("hourFormat")) {
   localStorage.setItem("hourFormat", "12");
 }
-
-// Retirer le button du container
-document.body.insertAdjacentElement("beforeend", toggleButton);
