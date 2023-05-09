@@ -15,7 +15,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    height: 400px;
+    height: 250px;
+    width: 600px;
 }
 
 .photoContainer {
@@ -37,16 +38,56 @@ body {
     color: rgba(66, 65, 65, 0.524);
     font-size: 35px;
     font-weight: bold;
-    margin: 0;
+    margin-top: 0;
+    background-color: white;
+    width: 150px;
 }
 
+.dateContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    width: 100px;
+}
+
+.dayOfWeekElement {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(205, 61, 61);
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 150px;
+}
+
+.monthElement {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: white;
+    width: 150px;
+}
+
+.yearElement {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(205, 61, 61);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 150px;
+}
 .timeElement {
     color: black;
     font-size: 50px;
     font-weight: bold;
-    margin: 0;
+    margin: 15px;
 }
-
 #toggleButton {
     display: flex;
     flex-direction: column;
@@ -61,34 +102,4 @@ body {
     &:hover {
         background-color: #e0e0e0;
     }
-}
-
-.dateContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.dayOfWeekElement {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.dateElement {
-    font-size: 2.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.monthElement {
-    font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.yearElement {
-    font-size: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 0;
 }
