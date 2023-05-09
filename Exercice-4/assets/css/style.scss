@@ -102,24 +102,10 @@ body {
     padding: 20px;
     position: relative;
 }
-
 .secondElement {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 40px;
-    background-color: #f0f0f0;
-    color: black;
-    position: fixed;
-    text-align: left;
-    width: 90px;
-    height: 80px;
-    margin-left: 485px;
-    
-    &:before {
-        content: "";
-    }
+    opacity: 0;
 }
+
 #toggleButton {
     display: flex;
     flex-direction: column;
