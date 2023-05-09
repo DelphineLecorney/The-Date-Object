@@ -26,6 +26,7 @@ body {
   gap: 10px;
   justify-items: center;
   align-items: center;
+  width: 600px;
 }
 
 .buttonContainer {
@@ -51,7 +52,6 @@ body {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  margin: 60px;
 }
 
 .dayOfWeekElement {
@@ -96,14 +96,27 @@ body {
 
 .timeElement {
   color: black;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bold;
-  margin: 50px;
-  padding: 40px;
+  padding: 20px;
+  position: relative;
 }
 
 .secondElement {
-  font-size: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 40px;
+  background-color: #f0f0f0;
+  color: black;
+  position: fixed;
+  text-align: left;
+  width: 90px;
+  height: 80px;
+  margin-left: 485px;
+}
+.secondElement:before {
+  content: "";
 }
 
 #toggleButton {

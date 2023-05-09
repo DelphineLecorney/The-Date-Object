@@ -32,13 +32,13 @@ const yearElement = document.createElement("p");
 yearElement.classList.add("yearElement");
 dateContainer.appendChild(yearElement);
 
-const timeElement = document.createElement("p");
+const timeElement = document.createElement("div");
 timeElement.classList.add("timeElement");
 photoContainer.appendChild(timeElement);
 
 const secondElement = document.createElement("p");
 secondElement.classList.add("secondElement");
-timeElement.appendChild(secondElement);
+container.appendChild(secondElement);
 
 const toggleButton = document.createElement("button");
 toggleButton.textContent = "12/24";
@@ -79,6 +79,9 @@ function updateDateTime() {
 
   const timeNow = now.toLocaleString("en-US", timeOptions);
   timeElement.textContent = ` ${timeNow} ${timeZone.label}`;
+
+  const second = now.toLocaleString("en-US", { second: "2-digit" });
+  secondElement.textContent = `:${second}`;
 }
 
 updateDateTime();
