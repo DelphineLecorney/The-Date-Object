@@ -36,6 +36,10 @@ const timeElement = document.createElement("p");
 timeElement.classList.add("timeElement");
 photoContainer.appendChild(timeElement);
 
+const secondElement = document.createElement("p");
+secondElement.classList.add("secondElement");
+timeElement.appendChild(secondElement);
+
 const toggleButton = document.createElement("button");
 toggleButton.textContent = "12/24";
 toggleButton.setAttribute("id", "toggleButton");

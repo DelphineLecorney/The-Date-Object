@@ -28,6 +28,7 @@ body {
     justify-items: center;
     align-items: center;
 }
+
 .buttonContainer {
     display: flex;
     flex-direction: column;
@@ -93,6 +94,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .timeElement {
     color: black;
     font-size: 50px;
@@ -100,6 +102,11 @@ body {
     margin: 50px;
     padding: 40px;
 }
+
+.secondElement {
+    font-size: 2px;
+}
+
 #toggleButton {
     display: flex;
     flex-direction: column;

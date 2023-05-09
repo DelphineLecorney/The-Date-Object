@@ -102,6 +102,10 @@ body {
   padding: 40px;
 }
 
+.secondElement {
+  font-size: 2px;
+}
+
 #toggleButton {
   display: flex;
   flex-direction: column;
