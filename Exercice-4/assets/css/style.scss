@@ -1,6 +1,8 @@
 @import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:ital,wght@0,700;0,900;1,700&family=Lexend+Deca:wght@100;400&family=Red+Hat+Display:wght@500&family=Roboto&display=swap');
 
 body {
+    font-family: 'Barlow', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +17,8 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    margin: 10px;
-    height: 280px;
+    margin: 0;
+    height: 320px;
     width: 600px;
 }
 
@@ -38,7 +40,7 @@ body {
 }
 
 .dateElement {
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(136, 135, 135);
     font-weight: bold;
     padding: 15px;
@@ -70,7 +72,7 @@ body {
 }
 
 .monthElement {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color: rgb(136, 135, 135);
     background-color: white;
